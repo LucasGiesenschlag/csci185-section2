@@ -15,6 +15,7 @@ header, main, footer {
 
 header, footer {
     background-color: #3891A6;
+    text-align: center;
     padding: 30px 10vh;
 }
 header strong, header a {
