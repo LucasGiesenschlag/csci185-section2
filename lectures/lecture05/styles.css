@@ -16,6 +16,7 @@ section {
     font-family: 'Courier New', Courier, monospace;
     color: black;
     padding: 50px;
+    transition: all 0.5s;
 }
 
 main > section {
@@ -28,4 +29,13 @@ header, footer {
     background-color: lightsalmon;
     text-align: center;
     padding: 30px 10vh;
+}
+
+section:hover {
+    opacity: 5;
+    transform: rotate(360deg);
+}
+
+section p {
+    margin: 15px 10px 30px 10px;
 }
