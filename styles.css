@@ -30,6 +30,7 @@ p, a, li {
 a:hover, a:focus {
     color: seagreen;
     font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
 

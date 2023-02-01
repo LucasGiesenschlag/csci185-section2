@@ -39,3 +39,9 @@ section:hover {
 section p {
     margin: 15px 10px 30px 10px;
 }
+
+header {
+    border: solid 2.5px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
