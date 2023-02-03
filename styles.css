@@ -31,6 +31,8 @@ a:hover, a:focus {
     color: seagreen;
     font-weight: 900;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    transition-duration: 1s;
+    transition: all 700ms;
   }
 
 

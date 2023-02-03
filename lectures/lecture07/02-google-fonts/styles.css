@@ -1,0 +1,20 @@
+/* Your style rules here */
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: aquamarine
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Itim&family=Roboto+Mono:ital,wght@1,200&display=swap');
+
+h1 {
+
+    font-family: 'Bad Script', cursive;
+}
+
+header {
+    text-align: center;
+    background-color: seagreen;
+    padding: 10px;
+    border: solid 5px black
+}
