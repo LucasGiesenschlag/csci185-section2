@@ -39,8 +39,3 @@ a:hover, a:focus {
 h2, header{
     font-family: 'Londrina Solid', cursive;
 }
-
-header {
-    border: solid 5px black;
-    padding: 5px;
-}
