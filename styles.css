@@ -54,7 +54,7 @@ h2, header{
   }
 
 .confidential {
-    animation: blinker 1s step-start infinite;
+    animation: blinker 2s step-start infinite;
     text-align: center;
     font-family: 'Londrina Solid', cursive;
     color: red;
