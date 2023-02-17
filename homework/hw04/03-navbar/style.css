@@ -1,0 +1,35 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    
+}
+
+nav {
+    display: flex;
+    background-color: grey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    height: auto;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+
+
+
