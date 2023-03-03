@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
@@ -11,3 +13,140 @@ body {
 }
 
 /* Your CSS Code Here! */
+
+nav {
+    text-align: right;
+    color: white;
+    padding: 10px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profile-pic {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+header {
+    background-color: teal;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    color: white;
+}
+
+h2 {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#about {
+    padding: 50px;
+}
+
+#projects {
+    background-color: lightgray;
+    padding: 50px;
+}
+
+#contact {
+    padding: 30px;
+}
+
+.project-holder {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+#contact-info {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 500px;
+}
+
+#message {
+    background-color: lightgray;
+    padding: 10px;
+    width: 30%;
+}
+
+#submit{
+    background-color: teal;
+    border-radius: -10;
+    padding: 10px;
+}
+
+#email {
+    background-color: lightgray;
+    padding: 10px;
+    margin: 10px;
+    width: 18%;
+}
+
+#name {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+footer {
+    background-color: lightgray;
+    padding: 40px;
+    text-align: center;
+}
+
+ /* unvisited link */
+ a:link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+    text-decoration: none;
+  } 
+
+  
+@media screen and (max-width: 800px) {
+  nav {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+  .project-holder {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #contact-info {
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+  }
+
+  #message {
+    width: 49%;
+  }
+  }

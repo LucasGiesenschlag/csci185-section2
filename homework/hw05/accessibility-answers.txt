@@ -1,15 +1,13 @@
 1. What corrections did you have to make?
 
-Your answers here.
+I had to change the label tags on the contact section and also add alt tags to the images.
 
 1. Do you think your website is usable if you turn off the CSS? Why or why not?
 
-Your answers here.
+I think the website is usable, the CSS offered design, but you were still able to see the images and scroll to find whatever you would like. The only feature that is necessary with the CSS would be the bookmarks to go down to certain places on the site with just a click.  
 
 1. Is your site is tabbable? In other words, without the use of the mouse, are all the links and buttons accessible using the tab key?
 
-Your answers here.
-
-
+Yes, the website is tabbable.
 
 Reminder: don't forget to include a screenshot of your Wave report and link to it from your homepage!
