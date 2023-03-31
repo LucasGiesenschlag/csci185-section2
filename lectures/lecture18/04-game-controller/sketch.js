@@ -23,8 +23,30 @@ function moveController(ev) {
     // up arrow moves circle up
     // down arrow moves circle down
     if (ev.code === 'ArrowUp') {
-        console.log('move tie fighter up!');
+        y = y - 10;
+    
+    } else if (ev.code === 'ArrowDown') {
+        y = y + 10;
     }
+
+    if (ev.code === 'ArrowRight') {
+        x = x + 10;
+    } else if (ev.code === 'ArrowLeft') {
+        x = x - 10;
+    }
+
+    if (ev.code === 'Space') {
+        width = width + 10;
+    } else if (ev.code === 'ControlLeft') {
+        width = width - 10;
+    }
+    
+    if (ev.code === 'KeyR') {
+        fillColor = 'red';
+    } else if (ev.code === "KeyY") {
+        fillColor = 'yellow';
+    }
+
 
     // redraw circle:
     clear();
