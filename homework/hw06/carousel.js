@@ -18,7 +18,7 @@ let idx = 0;
     (2) update the caption inside of the .caption paragraph
 */
 function showImage() {
-    document.querySelector('.current-photo').innerHTML = <img src="${photos[idx]}" alt ="current photo" />
+    document.querySelector('.current-photo').innerHTML = `<img src="${photos[idx]}" alt ="current photo" />`
 
     document.querySelector('.caption').innerHTML = `Photo ${idx + 1} of ${photos.length}`
     // 1. target the img element and change its src to the image inside photos that is at slot idx
