@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
+  
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-color: #BBC8CA;
+    font-family: century 'Franklin Gothic Medium', sans-serif;
+}
+
+header, main, footer {
+    padding: 0 10vh;
+}
+
+header, footer {
+    background-color: #ABD2FA;
+    text-align: center;
+    padding: 30px 10vh;
+}
+header strong, header a {
+    margin-right: 10px;
+}
+
+p, a, li {
+    line-height: 1.5em;
+    font-size: 1.1em;
+}
+
+a:hover, a:focus {
+    color: seagreen;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition-duration: 1s;
+    transition: all 700ms;
+  }
+     
+h2, header{
+    font-family: 'Londrina Solid', cursive;
+}
+
+header {
+    border: solid 5px black;
+    padding: 5px;
+}
